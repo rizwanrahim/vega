@@ -8,6 +8,6 @@ namespace Project.Persistence
         public VegaDbContext(DbContextOptions<VegaDbContext> options) : base(options)
         {
         }
-        public DbSet<Make> Makes { get; set; }
+        public DbSet<Makes> Makes { get; set; }
     }
 }

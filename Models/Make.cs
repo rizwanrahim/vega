@@ -3,12 +3,12 @@ using System.Collections.ObjectModel;
 
 namespace Project.Models
 {
-    public class Make
+    public class Makes
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public ICollection<Model> Models { get; set; }
 
-        public Make() => Models = new Collection<Model>();
+        public Makes() => Models = new Collection<Model>();
     }
 }
