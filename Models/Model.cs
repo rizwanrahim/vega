@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Project.Models
 {
+    [Table("Models")]
     public class Model
     {
         public int Id { get; set; }
